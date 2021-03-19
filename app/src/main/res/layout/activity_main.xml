@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp">
+
+                    <WebView
+                        android:id="@+id/wb1"
+                        android:layout_width="match_parent"
+                        android:layout_height="175dp" />
+
+                    <ImageView
+                        android:id="@+id/a1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#8BC34A"
+                        android:clickable="true" />
+
+                    <ImageView
+                        android:id="@+id/a2"
+                        android:layout_width="85dp"
+                        android:layout_height="175dp"
+                        android:background="#8BC34A"
+                        android:clickable="true" />
+
+                    <ImageView
+                        android:id="@+id/a3"
+                        android:layout_width="109dp"
+                        android:layout_height="186dp"
+                        android:layout_marginStart="305dp"
+                        android:background="#8BC34A"
+                        android:clickable="true" />
+
+                    <ImageView
+                        android:id="@+id/a4"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="170dp"
+                        android:background="#8BC34A"
+                        android:clickable="true" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp">
+
+                    <WebView
+                        android:id="@+id/wb2"
+                        android:layout_width="match_parent"
+                        android:layout_height="175dp" />
+
+                    <ImageView
+                        android:id="@+id/b1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#BF583E"
+                        android:clickable="true" />
+
+                    <ImageView
+                        android:id="@+id/b2"
+                        android:layout_width="85dp"
+                        android:layout_height="175dp"
+                        android:background="#BF583E"
+                        android:clickable="true" />
+
+                    <ImageView
+                        android:id="@+id/b3"
+                        android:layout_width="105dp"
+                        android:layout_height="175dp"
+                        android:layout_marginStart="305dp"
+                        android:background="#BF583E"
+                        android:clickable="true" />
+
+                    <ImageView
+                        android:id="@+id/b4"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="170dp"
+                        android:background="#BF583E"
+                        android:clickable="true" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp">
+
+                    <WebView
+                        android:id="@+id/wb3"
+                        android:layout_width="match_parent"
+                        android:layout_height="175dp" />
+
+                    <ImageView
+                        android:id="@+id/c1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#19267A"
+                        android:clickable="true" />
+
+                    <ImageView
+                        android:id="@+id/c2"
+                        android:layout_width="85dp"
+                        android:layout_height="175dp"
+                        android:background="#19267A"
+                        android:clickable="true" />
+
+                    <ImageView
+                        android:id="@+id/c3"
+                        android:layout_width="105dp"
+                        android:layout_height="175dp"
+                        android:layout_marginStart="305dp"
+                        android:background="#19267A"
+                        android:clickable="true" />
+
+                    <ImageView
+                        android:id="@+id/c4"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="170dp"
+                        android:background="#19267A"
+                        android:clickable="true" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp">
+
+                    <WebView
+                        android:id="@+id/wb4"
+                        android:layout_width="match_parent"
+                        android:layout_height="175dp" />
+
+                    <ImageView
+                        android:id="@+id/d1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#9C27B0"
+                        android:clickable="true" />
+
+                    <ImageView
+                        android:id="@+id/d2"
+                        android:layout_width="85dp"
+                        android:layout_height="175dp"
+                        android:background="#9C27B0"
+                        android:clickable="true" />
+
+                    <ImageView
+                        android:id="@+id/d3"
+                        android:layout_width="105dp"
+                        android:layout_height="175dp"
+                        android:layout_marginStart="305dp"
+                        android:background="#9C27B0"
+                        android:clickable="true" />
+
+                    <ImageView
+                        android:id="@+id/d4"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="170dp"
+                        android:background="#9C27B0"
+                        android:clickable="true" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
